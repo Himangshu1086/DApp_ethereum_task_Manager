@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+   .form_submit{
+       position: absolute;
+       top: 10%;
+       left: 18%;
+       width: 50%;
+       height: 50%;
+       margin: 50px;
+       border: solid black 2px;
+       padding: 50px;
+       display: flex;flex-direction: column;
+   }
+   .form_submit > input  {
+       padding: 10px;
+        text-decoration: none;
+        border-radius: 5px;
+        margin: 30px; 
+        font-size: larger;
+   }
+   .form_submit  >  button{
+       width: 40%;
+       margin-left: 30px;
+       background-color: rgb(45, 146, 177);
+       border-radius: 5px;
+       padding: 10px;
+       font-size: larger;
+   }
+
+</style>
+</head>
+
+<body>
+    <form class="form_submit">
+        <h1>Daily Tasks to be Done : </h1>
+        <input type= "text" placeholder="Write your task"/>
+        <button type="submit">Add</button>
+    </form>
+</body>
+</html>
